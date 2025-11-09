@@ -1,0 +1,91 @@
+# See https://github.com/github/gitignore for templates
+# Expo React Native project ignores
+
+# Dependencies
+node_modules/
+.pnp*/
+.yarn/
+.turbo/
+
+# Build output
+dist/
+web-build/
+build/
+coverage/
+
+# Expo
+.expo/
+.expo-shared/
+*.expo-shared
+
+# Metro / Cache
+.bundle/
+.cache/
+*.packager
+*.packager.info
+tmp/
+
+# Environment variables
+.env
+.env.*
+.envrc
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Android
+android/.gradle/
+android/.cxx/
+android/app/build/
+android/build/
+android/captures/
+android/local.properties
+android/app/debug.keystore
+
+# iOS
+ios/build/
+ios/DerivedData/
+ios/Pods/
+ios/.xccache/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+project.xcworkspace/
+!.gitkeep
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+expo-debug.log*
+*.log
+
+# Fastlane
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+ios/fastlane/screenshots/
+android/fastlane/report.xml
+android/fastlane/Preview.html
+android/fastlane/screenshots/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.orig
+
+
